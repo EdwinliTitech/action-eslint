@@ -30,7 +30,7 @@ jobs:
           HUSKY_SKIP_INSTALL: true
       # Alternative: if you use npm instead of yarn
       # - run: npm ci --no-audit --prefer-offline
-      - uses: tinovyatkin/action-eslint@v1
+      - uses: EdwinliTitech/action-eslint@v1
         with:
           repo-token: ${{secrets.GITHUB_TOKEN}}
           check-name: eslint # this is the check name from above 👆 where to post annotations
